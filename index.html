@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count-Down Application</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="icon" href="icon.png">
+</head>
+<body>
+    <main class="main">
+
+        <section id="header">
+            <h1>The Countdown Begins...</h1>
+        </section>
+     
+        <section id="dateInput">
+            <label for="userDate" class="enter-date-time" >Enter Date & Time: </label>
+            <input type="datetime-local" id="userDate">
+            <button id="startCountdown">Start Countdown</button>
+        </section>
+        
+        <section id="contentBody">
+            <article class="timeHolder">
+                <input type="text" id="days" readonly value="0">
+                <label for="days">Days</label>
+
+                <input type="text" id="hrs" readonly value="0">
+                <label for="hrs">Hours</label>
+
+                <input type="text" id="min" readonly value="0">
+                <label for="min">Minutes</label>
+
+                <input type="text" id="sec" readonly value="0">
+                <label for="sec">Seconds</label>
+            </article>
+        </section>
+
+    </main>
+  <script src="script.js"></script>
+</body>
+</html>
