@@ -1,2 +1,3 @@
 # Count-Down-Application
-Responsive Count Down Application using HTML, CSS and JavaScript
+# Complete Responsive CountDown Application
+# Responsive Count Down Application using HTML, CSS and JavaScript
