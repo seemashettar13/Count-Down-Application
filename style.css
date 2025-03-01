@@ -43,6 +43,7 @@ h1{
 .enter-date-time{
     font-size: 20px;
     margin-top: 10px;
+    color: white;
 }
 
 #userDate {
@@ -90,8 +91,8 @@ input{
     border-radius: 10px;
     padding: 10px;
 }
-label{
-    display: none;
+.secondLabel {
+    visibility: hidden;
 }
 #days{
   grid-area: days;
@@ -135,6 +136,7 @@ border-radius: 10px;
     }
     .enter-date-time{
         font-size: 30px;
+        color: white;
     }
     
     #userDate {
@@ -153,7 +155,8 @@ border-radius: 10px;
         grid-template-areas: "days hrs min sec";
     }
 
-    label{
+    .secondLabel{
+        visibility: visible;
         color: white;
         font-weight: bold;
         font-size: 28px;
@@ -174,8 +177,12 @@ border-radius: 10px;
 
     h1{
         font-size: 40px;
-    
     }
+    .enter-date-time{
+        font-size: 30px;
+        color: white;
+    }
+    
     #contentBody{
         flex-direction: row;
     }
@@ -188,8 +195,13 @@ border-radius: 10px;
             grid-template-rows: repeat(1, 1fr);
             grid-template-areas: "days hrs min sec";
     }
-    label{
+    .secondLabel{
+        visibility: visible;
+        color: white;
+        font-weight: bold;
         font-size: 35px;
+        text-align: center;
+        margin-top: -20px;
     }
 }
 
@@ -198,6 +210,11 @@ border-radius: 10px;
     h1{
         font-size: 50px;
     }
+    .enter-date-time{
+        font-size: 40px;
+        color: white;
+    }
+    
     #contentBody{
         flex-direction: row;
     }
@@ -210,8 +227,13 @@ border-radius: 10px;
             grid-template-rows: repeat(1, 1fr);
             grid-template-areas: "days hrs min sec";
     }
- label{
+    .secondLabel{
+        visibility: visible;
+        color: white;
+        font-weight: bold;
         font-size: 35px;
+        text-align: center;
+        margin-top: -20px;
     }
 
     
@@ -221,6 +243,11 @@ border-radius: 10px;
     h1{
         font-size: 50px;
     }
+    .enter-date-time{
+        font-size: 40px;
+        color: white;
+    }
+    
     #contentBody{
         flex-direction: row;
     }
@@ -233,8 +260,13 @@ border-radius: 10px;
             grid-template-rows: repeat(1, 1fr);
             grid-template-areas: "days hrs min sec";
     }
-  label{
+    .secondLabel{
+        visibility: visible;
+        color: white;
+        font-weight: bold;
         font-size: 38px;
+        text-align: center;
+        margin-top: -20px;
     }
 }
 @media (min-width: 1440px) and (max-width: 1920px){
@@ -242,6 +274,11 @@ border-radius: 10px;
     h1{
         font-size: 50px;
     }
+    .enter-date-time{
+        font-size: 40px;
+        color: white;
+    }
+    
     #contentBody{
         flex-direction: row;
     }
@@ -255,8 +292,13 @@ border-radius: 10px;
             grid-template-rows: repeat(1, 1fr);
             grid-template-areas: "days hrs min sec";
     }
-    label{
+    .secondLabel{
+        visibility: visible;
+        color: white;
+        font-weight: bold;
         font-size: 30px;
+        text-align: center;
+        margin-top: -20px;
     }
 }
 @media (min-width: 1920px) and (max-width: 2560px){
@@ -276,8 +318,13 @@ border-radius: 10px;
             grid-template-rows: repeat(1, 1fr);
             grid-template-areas: "days hrs min sec";
     }
-    label{
+    .secondLabel{
+        visibility: visible;
+        color: white;
+        font-weight: bold;
         font-size: 38px;
+        text-align: center;
+        margin-top: -20px;
     }
 }
 @media (min-width: 2560px) {
@@ -297,8 +344,13 @@ border-radius: 10px;
             grid-template-rows: repeat(1, 1fr);
             grid-template-areas: "days hrs min sec";
     }
-    label{
+    .secondLabel{
+        visibility: visible;
+        color: white;
+        font-weight: bold;
         font-size: 38px;
+        text-align: center;
+        margin-top: -20px;
     }
 }
 
